@@ -1,7 +1,9 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 
 <head>
+    <link rel="stylesheet" type="text/css" href="{% static 'kb/main.css' %}"/>
     {% if title %}
         <title> KB - {{title}} </title>
     {% else %}
